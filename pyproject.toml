@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hulo"
+version = "0.1.0"
+description = "Hulo programming language compiler and runtime"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "The Hulo Authors" }]
+keywords = ["hulo", "programming-language", "compiler", "vbs", "vbscript"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Compilers",
+    "Topic :: Software Development :: Interpreters",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/hulo-lang/hulo"
+Repository = "https://github.com/hulo-lang/hulo"
+
+[project.scripts]
+hulo = "hulo.cli:main"
+
+[tool.setuptools]
+packages = ["hulo"]
+include-package-data = true
+zip-safe = false

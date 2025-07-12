@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include *.tar.gz
+include *.zip
+include checksums.txt
+recursive-include hulo * 
