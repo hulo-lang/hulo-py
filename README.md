@@ -1,23 +1,42 @@
-# hulo-py
+hulo-py
+========
 
-Hulo is a modern programming language designed for simplicity and performance.
+[![Hulo](https://img.shields.io/badge/Hulo-%238866E9.svg?logoColor=white&style=for-the-badge)](https://github.com/hulo-lang/hulo) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-## Installation
+## 🚀 Quick Start
 
-Install Hulo using pip:
+Install Hulo globally to get started:
 
 ```bash
 pip install hulo
 ```
 
-The package will automatically detect your platform and architecture, then install the appropriate binary files.
+This package automatically detects your platform and installs the appropriate binary distribution.
 
-### Supported Platforms
+## 📦 Platform-Specific Packages
 
-- **Windows**: x86_64, arm64, i386
-- **macOS**: x86_64, arm64
-- **Linux**: x86_64, arm64, i386
+If you prefer to install platform-specific packages directly:
 
-## License
+### macOS
+```bash
+pip install hulo --platform macosx_11_0_arm64    # Apple Silicon (M1/M2)
+pip install hulo --platform macosx_10_9_x86_64   # Intel Mac
+```
 
-MIT License - see LICENSE file for details. 
+### Linux
+```bash
+pip install hulo --platform manylinux_2_17_aarch64  # ARM64
+pip install hulo --platform manylinux_2_17_i686     # 32-bit x86
+pip install hulo --platform manylinux_2_17_x86_64   # 64-bit x86
+```
+
+### Windows
+```bash
+pip install hulo --platform win_arm64   # ARM64
+pip install hulo --platform win32       # 32-bit x86
+pip install hulo --platform win_amd64   # 64-bit x86
+```
+
+--------
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details. 

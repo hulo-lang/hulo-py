@@ -29,7 +29,7 @@ requires-python = ">=3.7"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/hulo-lang/hulo"
+Homepage = "https://hulo-lang.github.io/docs/"
 Repository = "https://github.com/hulo-lang/hulo"
 
 [project.scripts]
